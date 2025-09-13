@@ -1,0 +1,115 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #80b7ff, #0d4faa);
+  color: #333;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(5px);
+  border-bottom: 2px solid #fff;
+}
+
+header h1 {
+  margin: 0;
+  color: #fff;
+  font-size: 2.5rem;
+}
+
+header p {
+  color: #f8f8f8;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.search-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search-section input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #aaa;
+  font-size: 1rem;
+}
+
+.search-section button {
+  padding: 10px 15px;
+  border: none;
+  background: #0e33ed;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+.search-section button:hover {
+  opacity: 0.85;
+}
+
+.result-section {
+  margin-bottom: 20px;
+}
+
+#result {
+  padding: 15px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+#saveBtn {
+  padding: 10px 15px;
+  background: #ff6a00;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+#saveBtn:disabled {
+  background: #aaa;
+  cursor: not-allowed;
+}
+
+.notes-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.notes-section li {
+  background: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.notes-section button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  background: crimson;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+}
