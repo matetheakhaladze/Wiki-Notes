@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wiki Notes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Wiki Notes</h1>
+    <p>იპოვე ინფორმაცია და შეინახე შენს ნოუთებში</p>
+  </header>
+
+  <main>
+    <section class="search-section">
+      <input type="text" id="searchInput" placeholder="შეიყვანე თემა...">
+      <button id="searchBtn">ძიება</button>
+    </section>
+
+    <section class="result-section">
+      <h2>შედეგი</h2>
+      <div id="result"></div>
+      <button id="saveBtn" disabled>შენახვა</button>
+    </section>
+
+    <section class="notes-section">
+      <h2>ჩანაწერები</h2>
+      <ul id="notesList"></ul>
+      <button id="clearNotes">ყველას წაშლა</button>
+      <button id="exportNotes">ექსპორტი</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
